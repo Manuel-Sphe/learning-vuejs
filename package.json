@@ -9,14 +9,26 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@egoist/vue-emotion": "^0.6.2",
+    "@emotion/cache": "^11.10.7",
+    "@emotion/css": "^11.10.6",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@headlessui/vue": "^1.7.13",
+    "@heroicons/vue": "^2.0.17",
+    "heroicons": "^2.0.17",
     "pinia": "^2.0.32",
+    "prop-types": "^15.8.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "autoprefixer": "^10.4.14",
     "eslint": "^8.34.0",
     "eslint-plugin-vue": "^9.9.0",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^2.2.2",
     "vite": "^4.1.4"
   }
 }
