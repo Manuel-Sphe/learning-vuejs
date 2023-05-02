@@ -1,18 +1,4 @@
-<script>
-    export default{
-        name : "PokemonInfo",
-        props :{
-            name : {
-                type : Object,
-                requred : true,
-            },
-            base : {
-                type : Object,
-                required : true
-            }
-        }
-    }
-</script>
+
 
 <template>
     <div>
@@ -30,3 +16,19 @@
         </table>
     </div>
 </template>
+<script>
+
+export default {
+    name: "PokemonInfo",
+    props: {
+        name: {
+            type: Object,
+            requred: true,
+        },
+        base: {
+            type: Object,
+            required: true
+        }
+    }
+}
+</script>
