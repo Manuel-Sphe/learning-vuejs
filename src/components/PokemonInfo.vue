@@ -2,7 +2,7 @@
 
 <template>
     <div>
-        <h2>
+        <h2 class="text-2xl">
             {{ name.english }}
         </h2>
 
